@@ -1,0 +1,44 @@
+.Footer{
+    width: 100%;
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.dvv{
+    width: 100px;
+    height: 100px;
+    display: flex;
+
+}
+.yumaloq{
+    width: 25px;
+    height: 25px;
+    background-color: orangered;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 55px;
+    margin-left: 55px;
+}
+@media (max-width:768px){
+
+    .Footer{
+        height:180px;
+        text-align:center;
+        padding:20px;
+    }
+
+    .dvv{
+        width:80px;
+        height:80px;
+    }
+
+    .yumaloq{
+        width:20px;
+        height:20px;
+        margin-left:45px;
+        margin-top:42px;
+    }
+
+}

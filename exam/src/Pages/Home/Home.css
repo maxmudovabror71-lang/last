@@ -1,0 +1,665 @@
+.Home {
+    width: 100%;
+    background-color: white;
+}
+
+.section1 {
+    width: 90%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.section1>div {
+    width: 50%;
+    height: 100%;
+}
+
+.left2 h1 {
+    font-size: 70px;
+    font-weight: 900;
+}
+
+.figma1 {
+    width: 190px;
+    height: 50px;
+    background-color: #1c252e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: white;
+    gap: 10px;
+    border-radius: 5px;
+    margin-top: 80px;
+}
+
+.avilable {
+    width: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 50px;
+    color: #b3b3b3;
+}
+
+.v46 {
+    border-radius: 10px;
+    background-color: white;
+    width: 50px;
+    height: 20px;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1c252e;
+    font-size: 12px;
+}
+
+.svgg {
+    width: 230px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin-top: 30px;
+}
+
+p {
+    padding-top: 50px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.righ2 img {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    margin-left: -0px;
+    margin-top: -40px;
+    border: none;
+}
+
+.img3 {
+    z-index: 100;
+    border: none;
+}
+
+.img1 {
+    z-index: 100;
+}
+
+.img4 {
+    z-index: 99;
+}
+
+.img6 {
+    z-index: 90;
+}
+
+/*---------------------------------section2-------------------------------------*/
+.section2 {
+    width: 90%;
+    height: 765px;
+    z-index: 1;
+    border-radius: 20px;
+    background-color: #f4f6f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    gap: 20px;
+    padding-bottom: 100px;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.section2 img {
+    width: 65%;
+    height: 70%;
+}
+
+.section2 h1 {
+    font-size: 54px;
+    margin-top: 10px;
+}
+
+.section2 p {
+    font-size: 16px;
+    text-align: center;
+    color: #b3b3b3;
+}
+
+/* ------------------------------------------section3--------------------------------------------------------- */
+.section3 {
+    width: 100%;
+    height: 430px;
+    background-image: url("https://zone-ui.vercel.app/assets/images/home/for-designer.webp");
+    background-repeat: no-repeat;
+    border: 1px solid;
+    background-position: center;
+    background-color: #1c252e;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.qora {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.675);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    padding-bottom: 50px;
+}
+
+.qora p {
+    color: #b3b3b3;
+}
+
+.qora h1 {
+    color: white;
+    font-size: 50px;
+}
+
+.qora .btn3 {
+    width: 211px;
+    height: 50px;
+    background-color: #1c252ee1;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+}
+
+/* -----------------------------section4----------------------------------- */
+.section4 {
+    width: 100%;
+    height: 880px;
+    border: 1px solid;
+    background-image: url("https://zone-ui.vercel.app/assets/images/home/multiple-screens.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.qora2 {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.688);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: 50px;
+}
+
+.btn4 {
+    width: 136px;
+    height: 50px;
+    background-color: #1c252e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 10px;
+    color: white;
+    margin-top: 50px;
+}
+
+.qora2 h1 {
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    font-weight: 900;
+}
+
+/*------------------------------------------section5--------------------------- */
+.section5 {
+    width: 80%;
+    height: 415px;
+    margin: auto;
+    border-radius: 20px;
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.section5>div {
+    width: 50%;
+    height: 415px;
+}
+
+.btn5 {
+    width: 166px;
+    height: 50px;
+    border: 1px solid;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    font-weight: 500;
+    margin-top: 50px;
+}
+
+.righ5 {
+    color: #b3b3b3;
+    border: none;
+    background-image: url("https://zone-ui.vercel.app/assets/images/home/minimal-dashboard.webp");
+    background-size: 100%, 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.left5 p {
+    font-size: 18px;
+    color: #b3b3b3;
+}
+
+.left5 h1 {
+    margin-top: 40px;
+}
+
+/* -------------------------------------section6-------------------------- */
+.section6 {
+    width: 90%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+    margin-top: 100px;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.inf1,
+.inf3 {
+    width: 32%;
+    height: 90%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.inf2 {
+    width: 32%;
+    height: 100%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 4px #ccc;
+}
+
+.tepa {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+    padding-bottom: 50px;
+}
+
+.tepa p {
+    font-size: 30px;
+}
+
+.orta {
+    width: 100%;
+    height: 35%;
+    padding: 0px 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.past {
+    width: 100%;
+    height: 35%;
+    padding: 0px 30px;
+}
+
+.orta h1 {
+    color: orange;
+}
+
+.pbtn1 {
+    width: 280px;
+    height: 50px;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.orta h5 {
+    font-size: 25px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-top: 10px;
+}
+
+.past h5 {
+    font-size: 25px;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-top: 10px;
+}
+
+.past h6 {
+    font-size: 25px;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-top: 10px;
+    color: #b3b3b3;
+}
+
+.icon12 {
+    color: orangered;
+}
+
+hr {
+    width: 85%;
+    margin: auto;
+}
+
+.rrr {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.rrr h2 {
+    color: dodgerblue;
+    font-size: 32px;
+}
+
+.pbtn2 {
+    width: 280px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.pbtn3 {
+    width: 280px;
+    height: 50px;
+    background-color: orangered;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* -------------------------------------section7-------------------------------- */
+.section7 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.asos{
+    width: 750px;
+    height: 1000px;
+}
+.parcha{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 50px;
+}
+.parcha div{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    font-size: 20px;
+}
+hr{
+    width: 100%;
+}
+.parcha h5{
+    font-size: 20px;
+    font-weight: 400;
+}
+.asos h1{
+    text-align: center;
+}
+.idish{
+    width: 100%;
+    height: 400px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contact{
+    width: 150px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 50px;
+}
+.idish h1{
+    font-size: 40px;
+}
+.idish p{
+    font-size: 20px;
+    color: #b3b3b3;
+}
+.fr{
+    font-size: 45px;
+}
+/* ---------------------------section8----------------------- */
+.section8{
+    width: 90%;
+    height: 100vh;
+    border: 1px solid;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.left7{
+    width: 40%;
+    height: 100%;
+    border: 1px solid;
+    padding-top: 100px;
+}
+.right7{
+    width: 60%;
+    height: 100%;
+    border: 1px solid;
+}
+.left7 p{
+    font-size: 24px;
+    color: #b3b3b3;
+}
+.left7 h1{
+    font-size: 55px;
+    margin-top: 50px;
+    font-weight: 900;
+}
+/* =================== Responsive 768px =================== */
+@media (max-width:768px){
+
+    .section1{
+        flex-direction: column;
+        width: 95%;
+        text-align: center;
+    }
+
+    .section1 > div{
+        width: 100%;
+    }
+
+    .left2 h1{
+        font-size: 38px;
+        line-height: 1.2;
+    }
+
+    .left2 p{
+        font-size: 16px;
+    }
+
+    .figma1,
+    .avilable,
+    .svgg{
+        margin: 30px auto 0;
+    }
+
+    .righ2{
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .righ2 img{
+        position: static;
+        width: 100%;
+        height: auto;
+    }
+
+    .section2{
+        height: auto;
+        padding: 50px 20px;
+    }
+
+    .section2 h1{
+        font-size: 36px;
+        text-align: center;
+    }
+
+    .section2 img{
+        width: 100%;
+        height: auto;
+    }
+
+    .section3 h1,
+    .qora h1{
+        font-size: 36px;
+        text-align: center;
+    }
+
+    .section4{
+        height: 600px;
+    }
+
+    .qora2 h1{
+        font-size: 40px;
+    }
+
+    .section5{
+        width: 95%;
+        height: auto;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .section5 > div{
+        width: 100%;
+        height: 350px;
+    }
+
+    .section6{
+        height: auto;
+        flex-direction: column;
+        gap: 30px;
+        padding: 0 20px;
+    }
+
+    .inf1,
+    .inf2,
+    .inf3{
+        width: 100%;
+        height: auto;
+        padding-bottom: 30px;
+    }
+
+    .pbtn1,
+    .pbtn2,
+    .pbtn3{
+        width: 90%;
+    }
+
+    .asos{
+        width: 100%;
+        height: auto;
+    }
+
+    .section8{
+        width: 95%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .left7,
+    .right7{
+        width: 100%;
+        height: auto;
+    }
+
+    .left7{
+        padding-top: 50px;
+    }
+
+    .left7 h1{
+        font-size: 38px;
+    }
+
+    .left7 p{
+        font-size: 18px;
+    }
+}

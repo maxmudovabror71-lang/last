@@ -1,0 +1,192 @@
+.Navbar {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f4f6f8f4;
+    position: sticky;
+    top: 0%;
+    left: 0%;
+    z-index: 200;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+.qizil {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 86px;
+}
+
+.Navbar>div {
+    width: 30%;
+    height: 100%;
+    display: flex;
+}
+
+.left1 {
+    padding-right: 165px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centr1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centr1 ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+}
+
+.Navbar a {
+    color: black;
+}
+
+.flag {
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+
+}
+
+.lupa {
+    width: 30px;
+    height: 30px;
+}
+
+.right1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-right: 0px;
+}
+
+.btn19{
+    width: 100px;
+    height: 40px;
+    background-color: #1c252e;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.seting {
+    width: 30px;
+    height: 30px;
+}
+.home1a{
+    color: orangered;
+}
+.language{
+    position: relative;
+}
+
+.languageMenu{
+    position: absolute;
+    top: 45px;
+    right: -20px;
+    width: 220px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.15);
+    padding: 8px;
+    z-index: 999;
+}
+
+.languageItem{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 12px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.languageItem:hover{
+    background: #f2f5f9;
+}
+
+.languageItem img{
+    width: 30px;
+    height: 22px;
+    border-radius: 4px;
+}
+
+.languageItem span{
+    font-size: 18px;
+    font-weight: 500;
+}
+@media (max-width: 768px) {
+
+    .Navbar{
+        height: 70px;
+        padding: 0 15px;
+    }
+
+    .Navbar>div{
+        width: auto;
+    }
+
+    .centr1{
+        display: none;
+    }
+
+    .left1{
+        padding-right: 0;
+    }
+
+    .logo{
+        width: 70px;
+        height: 70px;
+    }
+
+    .qizil{
+        margin-left: 58px;
+        margin-top: 10px;
+    }
+
+    .right1{
+        gap: 12px;
+    }
+
+    .btn1{
+        width: 80px;
+        height: 35px;
+        font-size: 13px;
+    }
+
+    .flag,
+    .lupa,
+    .seting{
+        width: 25px;
+        height: 25px;
+    }
+
+    .languageMenu{
+        width: 180px;
+        right: 0;
+    }
+
+    .languageItem span{
+        font-size: 15px;
+    }
+
+}
